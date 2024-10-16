@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 22.4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FF69B4;
+  color: #E4EEF1;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0 50px;
+}
+header figure {
+  display: flex;
+  align-items: center;
+}
+header figure img {
+  width: 15vh;
+}
+
+.menu {
+  width: 30vw;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.firstSection {
+  height: 71.8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFD9EC;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 0 50px;
+}
+.firstSection img {
+  width: 24.9vw;
+}
+
+.secondSection {
+  height: 49.9vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FF69B4;
+  color: #E4EEF1;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 0 50px;
+}
+.secondSection img {
+  width: 28.7vw;
+}
+
+.thirdSection {
+  height: 81.1vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFD9EC;
+  padding: 0 50px;
+}
+.thirdSection img {
+  width: 17vw;
+}
+
+footer {
+  height: 27.2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #FF69B4;
+  color: #E4EEF1;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 50px;
+}/*# sourceMappingURL=style.css.map */
