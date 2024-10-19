@@ -11,12 +11,11 @@ header {
   height: 22.4vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #FF69B4;
   color: #E4EEF1;
   font-size: 28px;
   font-weight: 400;
-  padding: 0 50px;
 }
 header figure {
   display: flex;
@@ -33,17 +32,24 @@ header figure img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 35vw;
+}
+.menu ul a {
+  color: #E4EEF1;
+  text-decoration: none;
 }
 
 .firstSection {
   height: 71.8vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #FFD9EC;
   font-size: 25px;
   font-weight: 400;
-  padding: 0 50px;
+}
+.firstSection p {
+  width: 40vw;
 }
 .firstSection img {
   width: 24.9vw;
@@ -53,12 +59,14 @@ header figure img {
   height: 49.9vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #FF69B4;
   color: #E4EEF1;
   font-size: 25px;
   font-weight: 400;
-  padding: 0 50px;
+}
+.secondSection p {
+  width: 40vw;
 }
 .secondSection img {
   width: 28.7vw;
@@ -68,23 +76,27 @@ header figure img {
   height: 81.1vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #FFD9EC;
-  padding: 0 50px;
 }
 .thirdSection img {
   width: 17vw;
 }
 
 footer {
-  height: 27.2vh;
+  height: 20vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   background-color: #FF69B4;
   color: #E4EEF1;
   font-size: 20px;
   font-weight: 400;
-  padding: 0 50px;
+}
+footer ul {
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
